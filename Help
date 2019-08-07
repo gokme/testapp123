@@ -1,0 +1,23 @@
+# Important commands
+
+
+kubectl config
+
+kubectl get <h name>s
+kubectl describe <h name> <name of the resource>
+
+kubectl create -f <file-name> 
+
+kubectl update -f <file-name> 
+
+kubectl apply -f <file-name> 
+
+kubectl delete <h name> <name of the resource>
+
+# Gives you the console logs and provides us the info
+kubectl logs <pod name>
+
+kubectl logs <pod name> <cont name>
+
+kubectl exec <pod name> <cont name> <command>
+
